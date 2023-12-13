@@ -1,0 +1,25 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.character-container {
+  margin: 10px;
+  position: relative;
+}
+
+.character-portrait {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.character-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
